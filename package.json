@@ -1,0 +1,26 @@
+{
+  "name": "nodejs13",
+  "version": "1.0.0",
+  "description": "authorization middleware using Node, Express.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "npm install -g nodemon && nodemon"
+  },
+  "keywords": [
+    "Authorization",
+    "AuthZ",
+    "Access Control",
+    "JSON Web Token",
+    "JWT",
+    "NodeJS",
+    "Express"
+  ],
+  "author": "Shiv",
+  "license": "ISC",
+  "dependencies": {
+    "cron-master": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
